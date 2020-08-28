@@ -57,7 +57,7 @@ public class FXMLDocumentController implements Initializable {
             
             // After login is successful, you are taken to the main page
             Parent root;
-            try {
+            try { 
                 Stage stage = new Stage();
                 root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
                 scene = new Scene(root);

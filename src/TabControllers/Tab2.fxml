@@ -8,7 +8,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="647.0" prefWidth="787.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TabControllers.FXMLTab2Controller">
+<AnchorPane id="AnchorPane" prefHeight="647.0" prefWidth="787.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="smsprototype.FXMLDocumentController">
     <children>
       <MenuBar prefHeight="28.0" prefWidth="787.0">
         <menus>
