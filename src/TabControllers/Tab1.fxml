@@ -31,13 +31,13 @@
       </MenuBar>
       <ToolBar prefHeight="40.0" prefWidth="787.0">
         <items>
-          <Button fx:id="sendBtn" mnemonicParsing="false"  text="Send" />
-            <Button fx:id="serverBtn" mnemonicParsing="false"  text="Servers" />
+          <Button fx:id="sendBtn" mnemonicParsing="false" text="Send" />
+            <Button fx:id="serverBtn" mnemonicParsing="false" text="Servers" />
             <Button mnemonicParsing="false" text="Emotes" />
         </items>
       </ToolBar>
-      <TextField layoutX="14.0" layoutY="588.0" prefHeight="45.0" prefWidth="759.0" />
-      <SplitPane dividerPositions="0.18890356671070013" layoutX="14.0" layoutY="40.0" prefHeight="539.0" prefWidth="759.0">
+      <TextField layoutX="14.0" layoutY="552.0" prefHeight="45.0" prefWidth="759.0" />
+      <SplitPane dividerPositions="0.18890356671070013" layoutX="14.0" layoutY="40.0" prefHeight="472.0" prefWidth="759.0">
         <items>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
                <children>
@@ -62,8 +62,19 @@
                   </Accordion>
                </children>
             </AnchorPane>
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" />
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="498.0" prefWidth="611.0">
+               <children>
+                  <ScrollBar layoutX="597.0" orientation="VERTICAL" prefHeight="470.0" prefWidth="14.0" />
+               </children></AnchorPane>
         </items>
       </SplitPane>
+      <ToolBar layoutX="16.0" layoutY="512.0" prefHeight="40.0" prefWidth="759.0">
+        <items>
+          <Button defaultButton="true" mnemonicParsing="false" text="Send" />
+            <Button mnemonicParsing="false" text="Attach" />
+            <Button mnemonicParsing="false" text="Font" />
+            <ColorPicker />
+        </items>
+      </ToolBar>
     </children>
 </AnchorPane>

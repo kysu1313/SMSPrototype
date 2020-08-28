@@ -28,15 +28,6 @@ public class SMSPrototype extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
-//        
-//        Scene scene = new Scene(root);
-        
-//        FXMLLoader loader = new FXMLLoader(getClass().getResource("FXMLDocument.fxml"));
-//        Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
-//        newStage = stage;
-//        tab1Controller = (FXMLTab1Controller)loader.getController();
-//        tab2Controller = (FXMLTab2Controller)loader.getController();
-//        Parent root = loader.load();
         scene = new Scene(root);
         
         stage.setScene(scene);

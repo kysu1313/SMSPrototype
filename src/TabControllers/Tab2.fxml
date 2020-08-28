@@ -29,15 +29,8 @@
           </Menu>
         </menus>
       </MenuBar>
-      <ToolBar layoutX="14.0" layoutY="548.0" prefHeight="37.0" prefWidth="759.0">
-        <items>
-          <Button fx:id="sendBtn" mnemonicParsing="false"  text="Send" />
-            <Button fx:id="serverBtn" mnemonicParsing="false"  text="Servers" />
-            <Button mnemonicParsing="false" text="Emotes" />
-        </items>
-      </ToolBar>
-      <TextField layoutX="14.0" layoutY="585.0" prefHeight="45.0" prefWidth="759.0" />
-      <SplitPane dividerPositions="0.21171770972037285" layoutX="14.0" layoutY="28.0" prefHeight="521.0" prefWidth="759.0">
+      <TextField layoutX="14.0" layoutY="529.0" prefHeight="45.0" prefWidth="759.0" />
+      <SplitPane dividerPositions="0.21171770972037285" layoutX="14.0" layoutY="28.0" prefHeight="465.0" prefWidth="759.0">
         <items>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
                <children>
@@ -64,10 +57,18 @@
             </AnchorPane>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
                <children>
-                  <TextFlow prefHeight="519.0" prefWidth="594.0" />
+                  <TextFlow prefHeight="407.0" prefWidth="594.0" />
                </children>
             </AnchorPane>
         </items>
       </SplitPane>
+      <ToolBar layoutX="14.0" layoutY="494.0" prefHeight="34.0" prefWidth="759.0">
+        <items>
+          <Button fx:id="sendBtn" defaultButton="true" mnemonicParsing="false" text="Send" />
+            <Button fx:id="serverBtn" mnemonicParsing="false" text="Attach" />
+            <Button mnemonicParsing="false" text="Font" />
+            <ColorPicker />
+        </items>
+      </ToolBar>
     </children>
 </AnchorPane>
