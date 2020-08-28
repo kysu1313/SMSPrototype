@@ -4,32 +4,25 @@
  * and open the template in the editor.
  */
 
-package smsprototype;
+package TabControllers;
 
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Label;
-import javafx.scene.control.TabPane;
 
 /**
  *
  * @author kms
  */
-public class FXMLDocumentController implements Initializable {
-    
-    @FXML
-    private Label label;
-    @FXML protected TabPane tab1;
-    @FXML protected TabPane tab2;
+public class FXMLTab2Controller implements Initializable {
     
     
-    
+
     @Override
-    public void initialize(URL url, ResourceBundle rb) {
-        // TODO
-    }    
+    public void initialize(URL location, ResourceBundle resources) {
+        System.out.println("hello");
+    }
     
 }

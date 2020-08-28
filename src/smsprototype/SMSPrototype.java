@@ -6,6 +6,8 @@
 
 package smsprototype;
 
+import TabControllers.FXMLTab1Controller;
+import TabControllers.FXMLTab2Controller;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -18,11 +20,24 @@ import javafx.stage.Stage;
  */
 public class SMSPrototype extends Application {
     
+    protected Stage newStage;
+    protected Scene scene;
+    static FXMLTab1Controller tab1Controller;
+    static FXMLTab2Controller tab2Controller;
+    
     @Override
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
+//        
+//        Scene scene = new Scene(root);
         
-        Scene scene = new Scene(root);
+//        FXMLLoader loader = new FXMLLoader(getClass().getResource("FXMLDocument.fxml"));
+//        Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
+//        newStage = stage;
+//        tab1Controller = (FXMLTab1Controller)loader.getController();
+//        tab2Controller = (FXMLTab2Controller)loader.getController();
+//        Parent root = loader.load();
+        scene = new Scene(root);
         
         stage.setScene(scene);
         stage.show();
